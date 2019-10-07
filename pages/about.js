@@ -1,12 +1,9 @@
-import Link from "next/link"
+import Navbar from '../components/Navbar'
 
 const About = () =>(
     <section>
+        <Navbar/>
         <h1>About This Project</h1>
-        <p>This is my first NextJS project</p>
-        <Link href="/">
-            <a>goto Index page</a>
-        </Link>
     </section>
 )
 

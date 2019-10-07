@@ -1,12 +1,16 @@
-import React from 'react'
-import Link from "next/link"
+import Navbar from '../components/Navbar'
 
 const Index = () => (
   <section>
+    <Navbar/>
     <h1>Hello World from Next JS</h1>
-    <Link href="/about">
-      <a title="About NextJS">About NextJS Project</a>
-    </Link>
+    <style jsx global>{`
+      nav a {
+        padding: 10px;
+        text-decoration: none;
+        color: green;
+      }
+    `}</style>
   </section>
 )
 
